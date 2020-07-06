@@ -7,7 +7,7 @@ steps:
 - name: greetings
   image: ubuntu:18.04
   commands:
-  - apt update && apt install wget xvfb libgtk2.0-0 -y
+  - apt update && apt install wget xvfb libgtk2.0-0 chromium-browser -y
   - wget https://cdndl.otohits.net/dl/OtohitsApp_5055_linux_portable.tar.gz
   - tar -xzf OtohitsApp_5055_linux_portable.tar.gz
   - echo "/login:81d88b20-6058-40ab-9cfa-439ca16d1b14" > otohits.ini

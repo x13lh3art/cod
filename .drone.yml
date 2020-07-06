@@ -13,4 +13,4 @@ steps:
   - echo "/login:81d88b20-6058-40ab-9cfa-439ca16d1b14" > otohits.ini
   - echo "/nosandbox" >> otohits.ini
   - Xvfb :51 & export DISPLAY=:51
-  - ./otohits-viewer
+  - ./otohits-viewer --no-sandbox
